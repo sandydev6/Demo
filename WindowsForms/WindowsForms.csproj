@@ -34,8 +34,7 @@
   </PropertyGroup>
   <PropertyGroup> 
 
-     <GenerateResourceMSBuildArchitecture>CurrentArchitecture</GenerateResourceMSBuildArchitecture>
-     <GenerateResourceMSBuildRuntime>CurrentRuntime</GenerateResourceMSBuildRuntime>
+<DisableOutOfProcTaskHost>true</DisableOutOfProcTaskHost>
     
    </PropertyGroup>
 
