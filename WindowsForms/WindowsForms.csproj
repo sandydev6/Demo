@@ -32,12 +32,6 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-  <PropertyGroup> 
-
-<DisableOutOfProcTaskHost>true</DisableOutOfProcTaskHost>
-    
-   </PropertyGroup>
-
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
