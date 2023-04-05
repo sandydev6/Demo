@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using ClassLibrary;
 
 namespace WindowsForms
 {
@@ -19,7 +20,8 @@ namespace WindowsForms
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            //test
+            TestFxCopRule obj = new TestFxCopRule();
+            obj.data(1, 2);
         }
     }
 }
